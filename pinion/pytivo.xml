@@ -5,7 +5,7 @@
     [h3]PyTivo[/h3]pyTivo is both an HMO and GoBack server. Similar to TiVo Desktop, pyTivo loads many standard video compression codecs and outputs mpeg2 (or in some cases, h.264) video to the TiVo. However, pyTivo is able to load many more file types than TiVo Desktop.[br]
 pyTivo is in no way affiliated with TiVo, Inc.[br][br]
     [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
-	[b]Please see the README for additional setup instructions: https://github.com/noinip/docker-pytivo/blob/master/README.md
+	[b]Please see the README for additional setup instructions: https://github.com/noinip/docker-pytivo/blob/master/README.md[br]
     [b]/config[/b] : this path is where pyTivo will store it\'s configuration files.[br]
     [b]/media[/b]   : this path is where pyTivo will look for media files.[br]
   </Description>
