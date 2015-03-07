@@ -4,9 +4,9 @@
   <Description>
     [h3]Mylar[/h3]Mylar is an automated Comic Book (cbr/cbz) downloader program heavily-based on the Headphones template and logic (which is also based on Sick-Beard).[br][br]
     [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
-    [b]/config[/b] : this path is where Mylar will store it\'s configuration files.
-    [b]/downloads[/b]   : this path is where Mylar will look for downloaded files.
-	[b]/comics[/b]   : this path is where Mylar will store files after processing.
+    [b]/config[/b] : this path is where Mylar will store it\'s configuration files.[br]
+    [b]/downloads[/b]   : this path is where Mylar will look for downloaded files.[br]
+	[b]/comics[/b]   : this path is where Mylar will store files after processing.[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/pinion/docker-mylar/</Registry>
   <GitHub>https://github.com/noinip/docker-mylar</GitHub>
@@ -43,6 +43,6 @@
   </Data>
   <Version></Version>
   <WebUI>http://[IP]:[PORT:8090]/</WebUI>
-  <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/evilhero/mylar/master/data/images/mylarlogo.png</Icon>
+  <Banner>http://i.imgur.com/F3mxSf5.png</Banner>
+  <Icon>http://i.imgur.com/F3mxSf5.png</Icon>
 </Container>
