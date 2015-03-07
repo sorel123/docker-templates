@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container>
+<Containers>
   <Name>Mylar</Name>
   <Description>
     [h3]Mylar[/h3]Mylar is an automated Comic Book (cbr/cbz) downloader program heavily-based on the Headphones template and logic (which is also based on Sick-Beard).[br][br]
@@ -42,6 +42,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8090]/</WebUI>
-  <Banner>http://i.imgur.com/F3mxSf5.png</Banner>
+  <Banner></Banner>
   <Icon>http://i.imgur.com/F3mxSf5.png</Icon>
-</Container>
+</Containers>
