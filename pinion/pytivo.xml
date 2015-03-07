@@ -44,5 +44,5 @@ pyTivo is in no way affiliated with TiVo, Inc.[br][br]
   </Data>
   <WebUI>http://[IP]:[PORT:9032]/</WebUI>
   <Banner></Banner>
-  <Icon></Icon>
+  <Icon>http://pytivo.sourceforge.net/forum/templates/subSilver/images/pytivo.gif</Icon>
 </Containers>
