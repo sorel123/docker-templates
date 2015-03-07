@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>pyTivo</Name>
+  <Description>
+    [h3]PyTivo[/h3]pyTivo is both an HMO and GoBack server. Similar to TiVo Desktop, pyTivo loads many standard video compression codecs and outputs mpeg2 (or in some cases, h.264) video to the TiVo. However, pyTivo is able to load many more file types than TiVo Desktop.[br]
+pyTivo is in no way affiliated with TiVo, Inc.[br][br]
+    [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
+	[b]Please see the README for additional setup instructions: https://github.com/noinip/docker-pytivo/blob/master/README.md
+    [b]/config[/b] : this path is where pyTivo will store it\'s configuration files.[br]
+    [b]/media[/b]   : this path is where pyTivo will look for media files.[br]
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/pinion/docker-pytivo/</Registry>
+  <GitHub>https://github.com/noinip/docker-pytivo</GitHub>
+  <Repository>pinion/docker-pytivo</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9032</HostPort>
+        <ContainerPort>9032</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>2190</HostPort>
+        <ContainerPort>2190</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/apps/appdata/pytivo</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/Media</HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:9032]/</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+</Containers>
