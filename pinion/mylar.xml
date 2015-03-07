@@ -41,7 +41,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version></Version>
   <WebUI>http://[IP]:[PORT:8090]/</WebUI>
   <Banner>http://i.imgur.com/F3mxSf5.png</Banner>
   <Icon>http://i.imgur.com/F3mxSf5.png</Icon>
