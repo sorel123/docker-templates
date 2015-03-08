@@ -18,7 +18,7 @@
     <Publish>
       <Port>
         <HostPort>8070</HostPort>
-        <ContainerPort>9032</ContainerPort>
+        <ContainerPort>8070</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -30,7 +30,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/Media</HostDir>
+      <HostDir>/mnt/user/Media/Music</HostDir>
       <ContainerDir>/media</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
