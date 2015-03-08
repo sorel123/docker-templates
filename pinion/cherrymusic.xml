@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>CherryMusic</Name>
+  <Description>
+    [h3]CherryMusic[/h3]A music streaming server written in python: Stream your own music collection to all your devices![br]
+    [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
+    [b]/config[/b] : this path is where CherryMusic will store it\'s configuration files.[br]
+    [b]/media[/b]   : this path is where CherryMusic will look for music files.[br]
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/pinion/cherrymusic/</Registry>
+  <GitHub>https://github.com/noinip/cherrymusic</GitHub>
+  <Repository>pinion/docker-pytivo</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8070</HostPort>
+        <ContainerPort>9032</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/apps/appdata/cherrymusic</HostDir>
+      <ContainerDir>/root/.config/cherrymusic</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/Media</HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8070]/</WebUI>
+  <Banner></Banner>
+  <Icon>http://www.fomori.org/cherrymusic/cherrymusic_small.png</Icon>
+</Containers>
