@@ -31,8 +31,8 @@
     </Volume>
     <Volume>
       <HostDir>/mnt/user/Media/Music</HostDir>
-      <ContainerDir>/media</ContainerDir>
-      <Mode>rw</Mode>
+      <ContainerDir>/music</ContainerDir>
+      <Mode>ro</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8070]/</WebUI>
