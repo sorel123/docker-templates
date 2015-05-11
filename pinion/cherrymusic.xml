@@ -42,4 +42,4 @@
   <WebUI>http://[IP]:[PORT:8070]/</WebUI>
   <Banner></Banner>
   <Icon>http://www.fomori.org/cherrymusic/cherrymusic_small.png</Icon>
-</Containers>
+</Container>
