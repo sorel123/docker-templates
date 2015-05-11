@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
+<Container>
   <Name>CherryMusic</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=38602.0</Support>
+  <Overview>
+  [h3]CherryMusic[/h3]A music streaming server written in python: Stream your own music collection to all your devices![br]
+  </Overview>
   <Description>
     [h3]CherryMusic[/h3]A music streaming server written in python: Stream your own music collection to all your devices![br]
     [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
