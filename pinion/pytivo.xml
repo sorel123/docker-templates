@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
   <Name>pyTivo</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=38602.0</Support>
   <Description>
     [h3]PyTivo[/h3]pyTivo is both an HMO and GoBack server. Similar to TiVo Desktop, pyTivo loads many standard video compression codecs and outputs mpeg2 (or in some cases, h.264) video to the TiVo. However, pyTivo is able to load many more file types than TiVo Desktop.[br]
 pyTivo is in no way affiliated with TiVo, Inc.[br][br]
@@ -9,6 +10,9 @@ pyTivo is in no way affiliated with TiVo, Inc.[br][br]
     [b]/config[/b] : this path is where pyTivo will store it\'s configuration files.[br]
     [b]/media[/b]   : this path is where pyTivo will look for media files.[br]
   </Description>
+  <Overview>
+  [h3]PyTivo[/h3]pyTivo is both an HMO and GoBack server. Similar to TiVo Desktop, pyTivo loads many standard video compression codecs and outputs mpeg2 (or in some cases, h.264) video to the TiVo. However, pyTivo is able to load many more file types than TiVo Desktop.
+  </Overview>
   <Registry>https://registry.hub.docker.com/u/pinion/docker-pytivo/</Registry>
   <GitHub>https://github.com/noinip/docker-pytivo</GitHub>
   <Repository>pinion/docker-pytivo</Repository>
