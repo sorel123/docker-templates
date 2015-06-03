@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
+<Beta>False</Beta>
+<Category>MediaServer:Video</Category>
   <Name>pyTivo</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=38602.0</Support>
   <Description>
