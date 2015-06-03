@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+  <Beta>False</Beta>
+  <Category>MediaServer:Music</Category>
   <Name>CherryMusic</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=38602.0</Support>
   <Overview>
@@ -7,8 +9,8 @@
   </Overview>
   <Description>
     [h3]CherryMusic[/h3]A music streaming server written in python: Stream your own music collection to all your devices![br]
-    [b][span style=\'color: #E80000;\']Directions:[/span][/b][br]
-    [b]/config[/b] : this path is where CherryMusic will store it\'s configuration files.[br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/config[/b] : this path is where CherryMusic will store it's configuration files.[br]
     [b]/media[/b]   : this path is where CherryMusic will look for music files.[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/pinion/cherrymusic/</Registry>
@@ -43,3 +45,4 @@
   <Banner></Banner>
   <Icon>http://www.fomori.org/cherrymusic/cherrymusic_small.png</Icon>
 </Container>
+
