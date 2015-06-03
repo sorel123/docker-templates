@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+<Beta>False</Beta>
+<Category>Downloaders: MediaApp:Books</Category>
   <Name>Mylar</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=38602.0</Support>
   <Description>
